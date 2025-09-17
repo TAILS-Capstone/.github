@@ -24,11 +24,32 @@ The system integrates **AI-powered image recognition** with **GPS tracking** to 
 ### On Board Node
 The onboard module features a **Raspberry Pi 5**, **battery pack**, **LoRa-GPS module**, and a **Hailo AI hat** for accelerated inference. It uses a **Raspberry Pi Camera HQ** with a wide-angle lens to capture images, reads **GPS signals** from sensors, and creates **LoRa packets** for transmission.
 
+<div align="center">
+  <img src="../resources/images/CameraMount.webp" alt="Camera Mount Design" style="width:70%;" />
+  <p><em>Figure 1: Custom adjustable mount for Raspberry Pi High Quality Camera</em></p>
+</div>
+
+<!-- 
+- Add picture of the onboard node attached to the drone ideally while the drone is flying
+- 
+
+ -->
+
 ### Base Station
 The base station utilizes a **Heltec LoRa board** supporting both **BLE** and **LoRa** communication. It receives **LoRa packets** from the drone and converts them into **BLE packets** to send to connected devices.
 
+<!-- 
+- Add a picture of the base station build
+- Add a picture of the debug console that says stuff
+ -->
+
 ### App
 The mobile application is built with **React Native** using **Expo Go** and **Firebase** for backend services. It displays **Points of Interest (POIs)** on a map, along with **flight data**, and is accessible on both **mobile devices** and the **web**.
+
+<!-- 
+- Add a picture of someone looking at their phone for the mobile app
+- Add a picture of some POI getting detected and their map placements
+ -->
 
 ## Bill of Materials (BOM)
 
