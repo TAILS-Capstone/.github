@@ -1,6 +1,6 @@
 # T.A.I.L.S. (Tactical Aerial Insight and Localization Suite)
 
-By Frederick Andrews, Jad Mghabghab, Josué Dazogbo, Maureen Kouassi, Mouad Ben Lahbib, Computer Engineering Students at the University of Ottawa  
+By Frederick Andrews, Jad Mghabghab, Josué Dazogbo, Maureen Kouassi, Mouad Ben lahbib, Computer Engineering Students at the University of Ottawa  
 Date: 3 July 2025  
 
 ## Overview
