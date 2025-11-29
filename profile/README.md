@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="..\resources\images\DemoFlight.gif" alt="Assembled Drone" style="width:100%;" />
-  <p><em>Figure 1: First field day group picture </em></p>
+  <p><em>Figure 1: AI enabled camera system performing real time inference during drone flight</em></p>
 </div>
 
 ---
@@ -12,7 +12,7 @@ Date: 3 July 2025
 
 <div align="center">
   <img src="..\resources\images\GroupPicture.jpg" alt="Assembled Drone" style="width:100%;" />
-  <p><em>Figure 1: First field day group picture </em></p>
+  <p><em>Figure 2: First field day group picture </em></p>
 </div>
 
 ## Overview
@@ -23,7 +23,7 @@ The system integrates **AI-powered image recognition** with **GPS tracking** to 
 
 <div align="center">
   <img src="../resources\images\MountedCameraDrone.jpg" alt="Assembled Drone" style="width:70%;" />
-  <p><em>Figure 1: Assembled camera system mounted on top of a drone</em></p>
+  <p><em>Figure 3: Assembled camera system mounted on top of a drone</em></p>
 </div>
 
 ## Features
@@ -38,21 +38,15 @@ The onboard module features a **Raspberry Pi 5**, **battery pack**, **LoRa-GPS m
 
 <div align="center">
   <img src="../resources/images/CameraMount.webp" alt="Camera Mount Design" style="width:70%;" />
-  <p><em>Figure 1: Custom adjustable mount for Raspberry Pi High Quality Camera</em></p>
+  <p><em>Figure 4: Custom adjustable mount for Raspberry Pi High Quality Camera</em></p>
 </div>
-
-<!-- 
-- Add picture of the onboard node attached to the drone ideally while the drone is flying
-- 
-
- -->
 
 ### Base Station
 The base station utilizes a modified ESP32 named **Heltec LoRa board** supporting both **BLE** and **LoRa** communication. It receives **LoRa packets** from the drone and converts them into **BLE packets** to send to connected devices.
 
 <div align="center">
   <img src="../resources\images\EndtoEndTestTerminal.jpg" alt="Camera Mount Design" style="width:70%;" />
-  <p><em>Figure 1: Base station converting LoRa packet to appropriate BLE packet </em></p>
+  <p><em>Figure 5: Base station converting LoRa packet to appropriate BLE packet </em></p>
 </div>
 
 ### App
@@ -60,7 +54,7 @@ The mobile application is built with **React Native** using **Expo Go** and **Fi
 
 <div align="center">
   <img src="../resources\images\TAILSPhoneApp.jpg" alt="Camera Mount Design" style="width:70%;" />
-  <p><em>Figure 1: Mobile app developped for POI lookup and flight telemetry </em></p>
+  <p><em>Figure 6: Mobile app developped for POI lookup and flight telemetry </em></p>
 </div>
 
 ## Bill of Materials (BOM)
