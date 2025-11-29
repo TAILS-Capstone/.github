@@ -1,7 +1,12 @@
 # T.A.I.L.S. (Tactical Aerial Insight and Localization Suite)
 
 By Frederick Andrews, Jad Mghabghab, Josué Dazogbo, Maureen Kouassi, Mouad Ben lahbib, Computer Engineering Students at the University of Ottawa  
-Date: 3 July 2025  
+Date: 3 July 2025
+
+<div align="center">
+  <img src="..\resources\images\GroupPicture.jpg" alt="Assembled Drone" style="width:100%;" />
+  <p><em>Figure 1: First field day group picture </em></p>
+</div>
 
 ## Overview
 
@@ -10,8 +15,8 @@ Date: 3 July 2025
 The system integrates **AI-powered image recognition** with **GPS tracking** to detect and mark important locations on an interactive map within a mobile application. This project involves expertise in **artificial intelligence**, **real-time embedded programming**, **wireless communication**, and **network security**.
 
 <div align="center">
-  <img src="../resources/images/AssembledDrone.png" alt="Assembled Drone" style="width:70%;" />
-  <p><em>Figure 1: Assembled drone without onboard module mounted</em></p>
+  <img src="../resources\images\MountedCameraDrone.jpg" alt="Assembled Drone" style="width:70%;" />
+  <p><em>Figure 1: Assembled camera system mounted on top of a drone</em></p>
 </div>
 
 ## Features
@@ -36,20 +41,20 @@ The onboard module features a **Raspberry Pi 5**, **battery pack**, **LoRa-GPS m
  -->
 
 ### Base Station
-The base station utilizes a **Heltec LoRa board** supporting both **BLE** and **LoRa** communication. It receives **LoRa packets** from the drone and converts them into **BLE packets** to send to connected devices.
+The base station utilizes a modified ESP32 named **Heltec LoRa board** supporting both **BLE** and **LoRa** communication. It receives **LoRa packets** from the drone and converts them into **BLE packets** to send to connected devices.
 
-<!-- 
-- Add a picture of the base station build
-- Add a picture of the debug console that says stuff
- -->
+<div align="center">
+  <img src="../resources\images\EndtoEndTestTerminal.jpg" alt="Camera Mount Design" style="width:70%;" />
+  <p><em>Figure 1: Base station converting LoRa packet to appropriate BLE packet </em></p>
+</div>
 
 ### App
 The mobile application is built with **React Native** using **Expo Go** and **Firebase** for backend services. It displays **Points of Interest (POIs)** on a map, along with **flight data**, and is accessible on both **mobile devices** and the **web**.
 
-<!-- 
-- Add a picture of someone looking at their phone for the mobile app
-- Add a picture of some POI getting detected and their map placements
- -->
+<div align="center">
+  <img src="../resources\images\TAILSPhoneApp.jpg" alt="Camera Mount Design" style="width:70%;" />
+  <p><em>Figure 1: Mobile app developped for POI lookup and flight telemetry </em></p>
+</div>
 
 ## Bill of Materials (BOM)
 
