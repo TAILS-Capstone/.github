@@ -1,6 +1,13 @@
 # T.A.I.L.S. (Tactical Aerial Insight and Localization Suite)
 
-By Frederick Andrews, Jad Mghabghab, Josué Dazogbo, Maureen Kouassi, Mouad Ben lahbib, Computer Engineering Students at the University of Ottawa  
+<div align="center">
+  <img src="..\resources\images\DemoFlight.gif" alt="Assembled Drone" style="width:100%;" />
+  <p><em>Figure 1: First field day group picture </em></p>
+</div>
+
+---
+
+By Frederick Andrews, Jad Mghabghab, Mouad Ben lahbib, Maureen Kouassi, Josué Dazogbo, Computer Engineering Students at the University of Ottawa  
 Date: 3 July 2025
 
 <div align="center">
